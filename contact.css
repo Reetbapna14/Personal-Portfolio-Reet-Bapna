@@ -1,0 +1,62 @@
+body {
+    background-color: #151515; 
+    color: #a8afd6; 
+    font-family: GlacialIndifference-Regular;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 22px;
+}
+.contact-box {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height:40%;
+    background-color: #151515;
+    color: a8afd6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px; 
+    font-size: 20px; 
+    background-color: #151515;
+    border-bottom: 1px solid #888; /* Add a bottom border */
+    color:  #a8afd6;
+    font-family: GlacialIndifference-Regular;
+  
+}
+/* Add a bottom border for placeholder effect */
+input::placeholder {
+    color:  #a8afd6; /* Adjust placeholder text color */
+  }
+
+  /* Style for better visibility when focused */
+  input:focus::placeholder {
+    color: transparent;
+  }
+
+button {
+    padding: 10px;
+    background-color: #a8afd6; 
+    color:#000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EB5558; 
+}

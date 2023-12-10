@@ -1,0 +1,177 @@
+@font-face {
+  font-family: GlacialIndifference-Regular;
+  src: url(../IMG/glacial-indifference/GlacialIndifference-Regular.otf);
+  }
+
+body{
+  background-color: #151515; 
+  color: #a8afd6; 
+  font-family: GlacialIndifference-Regular;
+}
+div {
+    margin: 1rem auto;
+}
+.row {
+    display: flex;
+    margin: 1rem;
+    padding: 10px;
+
+}  
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.semi-circle {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 20rem 0 0 20rem;
+    float: left;
+    margin: 10px
+}
+.big-semi-circle {
+  width: auto;
+  height: 800px;
+  border-radius: 800px 0 0 800px;
+  margin: 15px;
+  padding: 20px;
+  max-width: 700px;
+}
+.bottom-left-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-height: 100px; /* Set the maximum height of the image */
+}
+.square {
+    width: 15rem;
+    height: 18rem;
+    float: left;
+    position: relative;
+}
+.project{
+    width:100%;
+    height:95vh;
+    margin: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+/* Split the screen in half */
+.project_column{
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .project_column_direction h1{
+    font-size: 100px;
+  }
+  .details-font{
+    font-size: 30px;
+    margin: 30px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+  video {
+    width: 95%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  .carousel {
+    width: 95%; 
+    height: auto;;
+  }
+  .carousel img {
+    width: 95%; 
+    height: auto; 
+    border-radius: 10px; 
+  }
+  .carousel-item {
+    height: auto; /* Adjust the height as needed */ 
+  }
+  .single_img{
+    width: 70%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  .two-img{
+    margin: 5px;
+    width:40%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  .three-img{
+    margin: 5px;
+    width:40%;
+    height:auto;
+    border-radius: 10px; 
+  }
+  /* Absolute positioning for the first image */
+  .two-absolute-image {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+  /* Relative positioning for the second image */
+  .two-relative-image {
+    position: relative;
+    top: 10%;
+    right: 25%;
+  }
+  /* Relative positioning for the third image */
+  .three-relative-image {
+    position: relative;
+    top: -15%;
+    left: 19%;
+  }
+  .vertical-rule {
+    border-left: 2px solid #333;
+    height: 50%;
+    margin: 20px;
+  }
+.project-content{
+  justify-content: center;
+  margin: auto;
+}
+.project-number {
+  position: absolute;
+  text-orientation:upright;
+  writing-mode: vertical-lr;
+  right: 0;
+  font-size: 80px;
+  font-weight:500;
+  line-height: 1.2;
+  white-space: nowrap;
+  margin:20px;
+}
+
+.vertical-line {
+  position: absolute;
+  float: right;
+  right: 0;
+  height: 40%;
+  width: 10px;
+  border-left: 2px solid #a8afd6; 
+  margin: 20px;;
+}
+.project-para{
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
